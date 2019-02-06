@@ -11,6 +11,12 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".TratamientoActivity">
+        </activity>
+        <activity android:name=".EnfermedadActivity">
+        </activity>
+        <activity android:name=".HistorialActivity">
+        </activity>
         <activity android:name=".OpcionesActivity">
         </activity>
         <activity android:name=".MainActivity">

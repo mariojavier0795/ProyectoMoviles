@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 fun consultarIngreso(){
     val lstUsuario = ArrayList<Usuario>()
     val url = "http://192.168.100.8:1337/usuario"
-    val usuario = Usuario(cedula= null ,nombre=txtNombre.text.toString(), apellido = null,
+    val usuario = Usuario(id=null,cedula= null ,nombre=txtNombre.text.toString(), apellido = null,
         direccion = null, password = null, edad = null, empleado = null, doctor = null)
     val parametro=listOf("nombre" to usuario.nombre)
     url.httpGet(parametro).responseString { request, response, result ->
@@ -37,16 +37,9 @@ fun consultarIngreso(){
                 if (jsonResultado!= null) {
                     for(item in jsonResultado.iterator()){
                         if(!item.nombre.equals(null)){
+                            intent.putExtra("usuarioId ","${item.id.toString()}")
                             startActivity(intent)
-                        }else{
-                            Toast.makeText(this,"Usuario No encontrado",Toast.LENGTH_SHORT)
-                            Alerter.create(this@MainActivity)
-                                .setTitle("Búsqueda")
-                                .setText("Bienvenido")
-                                .setBackgroundColorRes(R.color.colorAccent)
-                                .show()
                         }
-
                     }
 
                 }

@@ -7,4 +7,9 @@
     <string name="historial">Historial</string>
     <string name="enfermedad">Enfermedad</string>
     <string name="tratamiento">Tratamiento</string>
+    <string name="codHistorial">Código</string>
+    <string name="fechaHistorial">Fecha</string>
+    <string name="observacionHistorial">Observaciones</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="usoTratamiento">Uso Tratamiento</string>
 </resources>
