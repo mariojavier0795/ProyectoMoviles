@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ProyectoMoviles</string>
+    <string name="app_name">Consulta médica</string>
     <string name="ingreso">Ingreso</string>
     <string name="nombre">Nombre</string>
     <string name="password">Password</string>
