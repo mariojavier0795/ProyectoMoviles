@@ -10,10 +10,7 @@ module.exports = {
   attributes: {
     codigoTratamiento:'string',
     usoTratamiento:'string',
-    observacionTratamiento:'string',
-    owner:{
-      model:'historial'
-    }
+    observacionTratamiento:'string'
   }
 
 };

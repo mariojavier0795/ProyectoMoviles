@@ -8,10 +8,7 @@
 module.exports = {
 
   attributes: {
-    especialidad:'string',
-    owner:{
-      model:'usuario'
-    }
+    especialidad:'string'
   },
 
 };

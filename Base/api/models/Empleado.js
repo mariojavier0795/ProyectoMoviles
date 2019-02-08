@@ -8,10 +8,7 @@
 module.exports = {
 
   attributes: {
-    rol:'string',
-    owner:{
-      model:'usuario'
-    }
+    rol:'string'
   }
 
 };

@@ -10,7 +10,6 @@ class OpcionesActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_opciones)
-        editText.setText(intent.getStringExtra("usuarioId"))
         btnHistorial.setOnClickListener { irHistorial() }
         btnEnfermedad.setOnClickListener { irEnfermedad() }
         btnTratamiento.setOnClickListener { irTratamiento() }

@@ -8,12 +8,7 @@
 module.exports = {
 
   attributes: {
-    owner:{
-      model:'historial'
-    },
-    ownerEnfermedad:{
-      model:'enfermedad'
-    }
+
   }
 
 };

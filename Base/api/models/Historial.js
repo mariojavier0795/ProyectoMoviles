@@ -10,18 +10,7 @@ module.exports = {
   attributes: {
     codigoHistorial:'string',
     fecha:'string',
-    observaciones:'string',
-    historialEnfermedad:{
-      collection:'historialenfermedad',
-      via:'owner'
-    },
-    tratamiento:{
-      collection:'tratamiento',
-      via:'owner'
-    },
-    owner:{
-      model:'usuario'
-    }
+    observaciones:'string'
   }
 
 };

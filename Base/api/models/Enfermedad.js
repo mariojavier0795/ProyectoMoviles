@@ -10,11 +10,7 @@ module.exports = {
   attributes: {
     codigoEnfermedad:'string',
     nombreEnfermedad:'string',
-    observacionesEnfermedad:'string',
-    historialEnfermedad:{
-      collection:'historialenfermedad',
-      via:'ownerEnfermedad'
-    }
+    observacionesEnfermedad:'string'
   }
 
 };
