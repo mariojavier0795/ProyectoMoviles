@@ -47,16 +47,4 @@
         app:layout_constraintStart_toStartOf="@+id/btnEnfermedad"
         app:layout_constraintTop_toBottomOf="@+id/btnEnfermedad" />
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="196dp"
-        android:layout_height="43dp"
-        android:layout_marginTop="68dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/btnTratamiento"
-        app:layout_constraintHorizontal_bias="0.515"
-        app:layout_constraintStart_toStartOf="@+id/btnTratamiento"
-        app:layout_constraintTop_toBottomOf="@+id/btnTratamiento" />
 </android.support.constraint.ConstraintLayout>

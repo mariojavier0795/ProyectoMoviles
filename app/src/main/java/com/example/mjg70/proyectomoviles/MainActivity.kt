@@ -35,7 +35,8 @@ fun consultarIngreso(){
                val resultado = result.get()
                val jsonResultado= Klaxon().parseArray<Usuario>(resultado)
                 if (jsonResultado!= null) {
-                    Toast.makeText(this, "${jsonResultado}", Toast.LENGTH_SHORT).show()
+                    var intent =Intent(this, OpcionesActivity::class.java)
+                    startActivity(intent)
                 }
 
             }

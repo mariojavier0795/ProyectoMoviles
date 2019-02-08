@@ -50,42 +50,27 @@
         app:layout_constraintTop_toBottomOf="@+id/txtCodHistorial" />
 
     <EditText
-        android:id="@+id/txtObservaciones"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:ems="10"
-        android:hint="@string/observacionHistorial"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/txtFechaHistorial"
-        app:layout_constraintStart_toStartOf="@+id/txtFechaHistorial"
-        app:layout_constraintTop_toBottomOf="@+id/txtFechaHistorial" />
-
-    <EditText
-        android:id="@+id/txtUsuario"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        android:visibility="invisible"
-        app:layout_constraintEnd_toEndOf="@+id/txtObservaciones"
-        app:layout_constraintStart_toStartOf="@+id/txtObservaciones"
-        app:layout_constraintTop_toBottomOf="@+id/txtObservaciones" />
+            android:id="@+id/txtObservaciones"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/observacionHistorial"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="@+id/txtFechaHistorial"
+            app:layout_constraintStart_toStartOf="@+id/txtFechaHistorial"
+            app:layout_constraintTop_toBottomOf="@+id/txtFechaHistorial"/>
 
     <Button
-        android:id="@+id/btnAcepHis"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="@string/aceptar"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/txtUsuario"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="@+id/txtUsuario"
-        app:layout_constraintTop_toBottomOf="@+id/txtUsuario" />
+            android:id="@+id/btnAcepHis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aceptar"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/txtObservaciones"
+            app:layout_constraintEnd_toEndOf="@+id/txtObservaciones" android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/txtObservaciones"/>
 
     <ImageView
         android:id="@+id/imageView3"
